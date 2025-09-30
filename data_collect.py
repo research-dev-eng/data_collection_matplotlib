@@ -3,13 +3,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 from rich import print
 
-with open("result_motion_1h_down_lte_up.json") as f:
+json_file = input("Enter the json file name: ")
+
+with open(f"data_collected/{json_file}.json") as f:
     data = json.load(f)
 
 times = []
 bandwidths = []
 
-img = input("Enter the graph name: ")
+img = input("Enter the graph name that you want to save: ")
 
 plt.style.use('fivethirtyeight')
 plt.rcParams.update({"font.size": 12})
