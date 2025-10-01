@@ -22,7 +22,7 @@ $ python3 data_collect.py
     ```bash
     Enter the json file name: result_motion_1h_starlink_down
   
-3. It also ask you to type the name of the graph you want to sav. The graph you'll be saved in **[your project project folder]/graphs/**.
+3. It also ask you to type the name of the graph you want to sav. The graph you'll be saved in **[your project folder]/graphs/**.
   * Example:
     ```bash
     Enter the graph name that you want to save: starlink_download_graph
